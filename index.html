@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="id"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Zombie Sniper: Ruins</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div id="menu"><div class="card"><div class="tag">ZOMBIE SNIPER</div><h1>RUINS</h1><p>Lapangan tembak kota terbengkalai. Rumah dan barikade dapat rusak oleh tembakan.</p><button id="start">MULAI</button><small>Audio dibuat dengan Web Audio API • tanpa file suara eksternal</small></div></div>
+<div id="hud">
+ <div class="stats"><span>❤️ <b id="hp">100</b></span><span>☠ <b id="kills">0</b></span><span>🌊 <b id="wave">1</b></span><span>🔩 <b id="ammo">5</b>/<b id="reserve">40</b></span></div>
+ <div id="scope"><div class="reticle"></div><div class="zoom">200×</div><div class="scopeLine"></div></div>
+ <div id="toast"></div>
+ <div id="joy"><i></i></div>
+ <div class="actions"><button id="aim">SCOPE</button><button id="reload">↻</button><button id="fire">FIRE</button></div>
+</div>
+<div id="over"><div class="card"><div class="tag">MISSION FAILED</div><h1>OUTBREAK</h1><p>Zombie dikalahkan: <b id="final">0</b></p><button id="again">MAIN LAGI</button></div></div>
+<script type="module" src="game.js"></script></body></html>
